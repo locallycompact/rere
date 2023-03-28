@@ -97,8 +97,8 @@ library
 
   if (flag(rere-cfg) && impl(ghc >=7.8))
     build-depends:
-      , fin  ^>=0.2
-      , vec  ^>=0.4
+      , fin  >=0.2 && < 0.5
+      , vec  >=0.4 && < 0.6
 
     exposed-modules: RERE.CFG
 
